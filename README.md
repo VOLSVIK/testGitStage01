@@ -14,6 +14,7 @@ My desire to learn has 2 goals. First: Get an opportunity to find a job in Polan
 
 >*"Watch the things you gave your life to, broken,*
 >*And stoop and build ’em up with worn-out tools"*
+>
 >*Rudyard Kipling*
 
 ***
