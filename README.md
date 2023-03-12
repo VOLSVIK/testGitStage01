@@ -6,7 +6,7 @@
 * Telegram: @Volsvik
 * Discord: VIKTAR VOLSKI (@volsvik)
 * GitHub: VOLSVIK
-*${currentTime}*
+
 ***
 
 ### **About myself**
