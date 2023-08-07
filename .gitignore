@@ -1,5 +1,3 @@
-.gitignore
-*.js
-*.html
+/src/*
+!/src/fff.*
 *.md
-!index.md
