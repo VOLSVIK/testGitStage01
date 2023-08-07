@@ -1,2 +1,5 @@
-*.*
+.gitignore
+*.js
+*.html
+*.md
 !index.md
