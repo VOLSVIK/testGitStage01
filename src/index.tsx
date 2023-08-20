@@ -4,9 +4,13 @@ import React from 'react';
 // import ReactDOM from 'react-dom';
 import ReactDOM from 'react-dom/client';
 import App from './App';
-import  { apiRoot }  './components/apiClient';
+
+import  { apiRoot } from 
+
+//   inte IClassNames {
 
 //   interface 
+
 //     [className: string]: string
 //   }
 //   const classNames: IClassNames;
@@ -20,8 +24,10 @@ const fff = (): Promise<ClientResponse<Project>> => {
 };
 fff()
   .then(function (value) {
-    console.log('Результат:', .body);
-    console.log('Результат операции:', value.body.languages);
+
+    console.log('Результат:', value.body);
+    console.log('Результат ции:', value.body.languages);
+
   })
   .catch(console.error);
 // const data = {};
