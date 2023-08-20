@@ -24,27 +24,7 @@ fff()
     console.log('Результат операции:', value.body.languages);
   })
   .catch(console.error);
-// const data = {};
-// apiRoot.get().execute().then(data);
-// const getdata = async (): Promise<void> => {
-//   const response = await fetch(
-//     `https://api.europe-west1.gcp.commercetools.com/gp47/`,
-//     {
-//       method: 'GET',
-//       headers: {
-//         Authorization: 'Bearer BKW5tI23wkLVDXmhFSVTGs4-Il9ZftfZ',
-//       },
-//     },
-//   );
-//   console.log(response);
-//   const data = await response.json();
-//   if (response.ok) {
-//     console.log(data);
-//   } else {
-//     console.log(`Ошибка №${response.status}===${data.error_description}`);
-//   }
-// };
-// getdata();
+//==================================
 
 const rootElement = document.getElementById('root');
 if (rootElement !== null) {
