@@ -4,8 +4,8 @@ import React from 'react';
 // import ReactDOM from 'react-dom';
 import ReactDOM from 'react-dom/client';
 import App from './App';
-import getProject, { apiRoot } from './components/apiClient';
-// declare module '*.css' {
+import  { apiRoot } from './components/apiClient';
+
 //   interface IClassNames {
 //     [className: string]: string
 //   }
@@ -16,11 +16,11 @@ import getProject, { apiRoot } from './components/apiClient';
 // getProject().then(console.log).catch(console.error);
 const fff = (): Promise<ClientResponse<Project>> => {
   return apiRoot.execute();
-  // return apiRoot.
+  // return 
 };
 fff()
   .then(function (value) {
-    console.log('Результат операц:', value.body);
+    console.log('Результат:', value.body);
     console.log('Результат операции:', value.body.languages);
   })
   .catch(console.error);
