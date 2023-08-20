@@ -12,15 +12,15 @@ import getProject, { apiRoot } from './components/apiClient';
 //   const classNames: IClassNames;
 //   export = classNames;
 // }
-// console.log(apiRoot.get().execute());
+
 // getProject().then(console.log).catch(console.error);
 const fff = (): Promise<ClientResponse<Project>> => {
-  return apiRoot.get().execute();
-  // return apiRoot.payments();
+  return apiRoot.execute();
+  // return apiRoot.
 };
 fff()
   .then(function (value) {
-    console.log('Результат операции:', value.body);
+    console.log('Результат операц:', value.body);
     console.log('Результат операции:', value.body.languages);
   })
   .catch(console.error);
